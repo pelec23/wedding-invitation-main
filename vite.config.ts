@@ -15,14 +15,8 @@ import {
 
 const distFolder = "build"
 
-let base = "/"
-
-try {
-  const url = new URL(pkg.homepage)
-  base = url.pathname
-} catch (e) {
-  base = pkg.homepage || "/"
-}
+// 💡 여기를 아래처럼 간단하게 수정하세요!
+const base = "./" 
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -51,5 +45,5 @@ export default defineConfig({
   ],
   server: { port: 3000 },
   build: { outDir: distFolder },
-  base,
+  base, // 이제 "./"가 적용됩니다.
 })
