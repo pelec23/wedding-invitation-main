@@ -33,6 +33,7 @@
           width: 50%;
           height: 50%;
           background: var(--theme-bg-color);
+            filter: drop-shadow(0 0 2px #ff4d4d);
           top: 35%;
           left: 25%;
           position: absolute;
@@ -47,6 +48,7 @@
             left: 0%;
             border-radius: 50%;
             background: var(--theme-bg-color);
+              filter: drop-shadow(0 0 2px #ff4d4d);
           }
           &::after {
             content: "";
@@ -56,6 +58,7 @@
             left: -50%;
             border-radius: 50%;
             background: var(--theme-bg-color);
+            filter: drop-shadow(0 0 2px #ff4d4d);
           }
         }
       }
