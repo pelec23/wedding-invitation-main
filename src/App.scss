@@ -11,7 +11,7 @@
 @use "./component/shareButton";
 
 :root {
-  --theme-color: #B5838D;
+  --theme-color: #C18C77;
   --theme-bg-color: #FDFCF8;
   --alt-color: #c28080;
   --alt-bg-color: #f4f0f0;
@@ -204,7 +204,7 @@ h2 {
   color: var(--theme-color);
   font-weight: normal;
   &.english {
-    font-family: "MyEngFont";
+    font-family: "Allura";
   }
 }
 
