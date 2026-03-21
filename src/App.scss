@@ -1,7 +1,7 @@
 @use "./component/cover";
 @use "./component/invitation";
 @use "./component/button";
-@use "./component/bgEffect";
+// @use "./component/bgEffect"; effect 제거
 @use "./component/calendar";
 @use "./component/gallery";
 @use "./component/location";
@@ -11,14 +11,14 @@
 @use "./component/shareButton";
 
 :root {
-  --theme-color: #ff8585;
-  --theme-bg-color: #ffe7e7;
+  --theme-color: #B5838D;
+  --theme-bg-color: #FDFCF8;
   --alt-color: #c28080;
   --alt-bg-color: #f4f0f0;
   --dark-color: #282c34;
   --dark-grey-color: #d2d2d2;
   --light-grey-color: #eaeaea;
-  --light-color: #f9f9f9;
+  --light-color: #ffffff;
   --white-color: #ffffff;
   --red-color: #ff0000;
 

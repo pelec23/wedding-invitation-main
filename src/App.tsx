@@ -14,7 +14,7 @@ import { STATIC_ONLY } from "./env"
 function App() {
   return (
     <div className="background">
-      <BGEffect />
+    /*  <BGEffect /> */
       <div className="card-view">
         <LazyDiv className="card-group">
           {/* 표지 */}
